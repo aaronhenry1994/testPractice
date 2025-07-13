@@ -5,4 +5,6 @@ function capitalize(string) {
     return array.join("");
 };
 
+console.log("Works")
+
 module.exports = capitalize;
