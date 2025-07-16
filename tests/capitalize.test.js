@@ -1,5 +1,5 @@
-const capitalize = require('./capitalize.js');
+const capitalize = require('../src/capitalize.js');
 
 test ('Capitilizes first letter', () => {
-    expect(capitalize('string').toBe('String'))
+    expect(capitalize('string')).toBe('String')
 })

@@ -1,4 +1,4 @@
-const Calculator = require('./calculator.js')
+const Calculator = require('../src/calculator.js')
 
 const calculate = new Calculator;
 
