@@ -16,4 +16,10 @@ function analyseArray(arr) {
 array = [1,8,3,4,2,6]
 analyseArray([1,8,3,4,2,6]);
 
+const object = analyseArray([1,8,3,4,2,6]);
+console.log(object.average);
+console.log(object.min);
+console.log(object.max);
+console.log(object.length);
+
 module.exports = analyseArray;
